@@ -25,7 +25,7 @@ def application(environ, start_response):
         response_body = '\n'.join(response_body)
     else:
         ctype = 'text/html'
-        response_body = '\n'.join(makeCustomMarctracker.getHTML())
+        response_body = makeCustomMarctracker.getHTML().encode('utf-8')
     status = '200 OK'
     response_headers = [('Content-Type', ctype), ('Content-Length', str(len(response_body)))]
     #
