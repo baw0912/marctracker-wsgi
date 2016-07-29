@@ -1,0 +1,26 @@
+{
+   "PENN NORTH": [
+      {
+         "Delay": "", 
+         "EstDepart": "03:39 PM", 
+         "LastUpdated": "3:34 PM 10/1/13", 
+         "NextStation": "Seabrook", 
+         "Number": "426", 
+         "OdentonTime": "3:51 PM", 
+         "Status": "On Time", 
+         "WashingtonTime": "3:23 PM"
+      }
+   ], 
+   "PENN SOUTH": [
+      {
+         "Delay": "1 Min", 
+         "EstDepart": "03:36 PM", 
+         "LastUpdated": "3:34 PM 10/1/13", 
+         "NextStation": "BWI Rail Station", 
+         "Number": "537", 
+         "OdentonTime": null, 
+         "Status": "On Time", 
+         "WashingtonTime": null
+      }
+   ]
+}
