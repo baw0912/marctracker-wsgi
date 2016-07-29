@@ -2,14 +2,7 @@
 import json
 from time import localtime, strftime
 from sched import sched, saSched, suSched
-
-fo = open('south.t')
-south_t = fo.read()
-fo.close()
-
-fo = open('north.t')
-north_t = fo.read()
-fo.close()
+from templates import south_t, north_t, index_t
 
 def makeSouthTrainText(train):
 	return makeSubs(south_t, train)
@@ -97,7 +90,7 @@ def addSchedule(outText):
 	return tmpText
 
 def buildHTML(trains):
-	outText = open('index.t').read()
+	outText = index_t
 	outText = addStatus(trains, outText)
 	outText = addSchedule(outText)
 	return outText
