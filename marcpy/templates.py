@@ -61,7 +61,7 @@ index_t = '''
         <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
             <div data-role="collapsible" data-collapsed="true">
                 <h3>
-                    Penn Souooooth (to DC)
+                    Penn South (to DC)
                 </h3>
 				<table border=1 cellspacing=0 cellpadding=2>
 ${SOUTH}
